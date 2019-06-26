@@ -1,12 +1,14 @@
 # wSentAnalyzer
 
+![https://github.com/gustavotogni/wSentAnalyzer)](https://user-images.githubusercontent.com/19785036/60141859-b6871600-978d-11e9-9ef2-fbe4d861438c.png)
+
 Our repository for a Python application that mines social network comments and classifies them according to the perceived prevailing sentiment using Machine Learning.
 
 - Clarissa Rodrigues <clarissa.ar@gmail.com>
 - Daniel Tamiosso <danieltamiosso@gmail.com>
 - Gustavo Togni <gustavotogni@gmail.com>
 
-# 1. Environment Setup (for Windows)
+# 1. Environment Setup
 
 1. Download and install Python 3 from
 
@@ -35,10 +37,10 @@ py wAnalyzer "source.csv"
 
 # 2. Architecture
 
-![image](https://user-images.githubusercontent.com/19785036/59629286-dd53a580-9118-11e9-8eca-9d86538b6250.png)
+![Architecture Overview](https://user-images.githubusercontent.com/19785036/60141894-dd454c80-978d-11e9-9849-5dcdc9e1b178.png)
 
-# 3. Inputs and Outputs
+# 3. Inputs & Outputs
 
 The Python program should be able to expect as input a CSV data-set with anonymized user-id and posts contents.
 
-As output the program will provide a users‘ personality traits clustering about that social network sample and the feature set utilized as well as plots of interesting characteristics.
+As output the program will provide a users‘ personality traits clustering about that social network sample and the feature set utilized as well as plots of interesting characteristics. The files are all created in "./output".
